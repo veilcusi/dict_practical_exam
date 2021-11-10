@@ -1,0 +1,22 @@
+1. Break down for me the primary stack you’ve worked with the last 2 years.
+- these past 2 years i been take over for some of our projects like information system and HRIS using PHP programming language with either codeigniter and laravel framework.
+- i only handled this projects alone, so i didnt have a chance to put backend from different programming language, although i have practive myself different language like react and node js
+2. What are the % of front vs backend?
+- 100% both
+3. What did you use for each?
+- PHP
+4. How to pass properties from parent to child components?
+- create variables to set the values needed to 2 components with the help of useState
+- make select/dropdown element that can handle the parent value to pass it in api
+- if the api is return successful, set the result to a array variable and map it to the second dropdown element
+5. Talk through how you would send an API request and process the response from the server
+- add package axios for the api
+- add package body-parser for the parsing the data
+- in the FE using axios with get method i set 1 parameter which is the parent value
+- now in the BE i create /api/getParams api that the FE will use to fetch what it needs
+- check and get the parameter from the request api and i name it as 'id' key
+- and i put it to variable which is 'par'
+- put 'par' in a condition, and it depends in the parameter value which data will be return to the FE request
+6.  What work/project have you done using MongoDB?
+- never tried, we used mariaDB our corp
+7. When should we embed one document with another in MongoDB?
